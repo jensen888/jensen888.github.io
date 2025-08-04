@@ -82,13 +82,13 @@
 
     {% comment %} 2. Slides URL {% endcomment %}
     {% if post.slidesurl %}
-    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fas fa-presentation"></i> <a href="' | append: post.slidesurl | append: '">Slides</a>' %}
+    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fas fa-chalkboard-user"></i> <a href="' | append: post.slidesurl | append: '">Slides</a>' %}
     {% assign separator = " / " %}
     {% endif %}
 
     {% comment %} 3. Poster URL {% endcomment %}
     {% if post.posterurl %}
-    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fas fa-image"></i> <a href="' | append: post.posterurl | append: '">Poster</a>' %}
+    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fas fa-newspaper"></i> <a href="' | append: post.posterurl | append: '">Poster</a>' %}
     {% assign separator = " / " %}
     {% endif %}
 
