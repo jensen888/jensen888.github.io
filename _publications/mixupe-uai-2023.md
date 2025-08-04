@@ -4,13 +4,12 @@ collection: publications
 category: conferences
 # permalink: /publication/toolace-iclr-2025
 excerpt: '**Yingtian Zou**\*, Vikas Verma\*, Sarthak Mittal, Wai Hoh Tang, Hieu Pham, Juho Kannala, Yoshua Bengio, Arno Solin, Kenji Kawaguchi'
-date: 2024-04-24
+date: 2023-08-01
 venue: 'UAI 2023'
 award: 'Best Student Paper'
 paperurl: 'https://arxiv.org/pdf/2212.13381'
-posterurl: 'https://iclr.cc/media/PosterPDFs/ICLR%202024/17617.png?t=1715675468.6652286'
-codeurl: ''
-videourl: ''
-blogurl: ''
+codeurl: 'https://github.com/jensen888/MixupE'
+videourl: 'https://www.youtube.com/watch?v=Fnwi35bNZbo'
+blogurl: 'https://www.comp.nus.edu.sg/bytes/2023-uai-best-student-paper-award/'
 # citation: 
 ---

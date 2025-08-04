@@ -76,37 +76,37 @@
 
     {% comment %} 1. Paper URL {% endcomment %}
     {% if post.paperurl %}
-    {% assign citation_parts = citation_parts | append: separator | append: '<a href="' | append: post.paperurl | append: '">Paper</a>' %}
+    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fas fa-file-pdf"></i> <a href="' | append: post.paperurl | append: '">Paper</a>' %}
     {% assign separator = " / " %}
     {% endif %}
 
     {% comment %} 2. Slides URL {% endcomment %}
-    {% if post.posterurl %}
-    {% assign citation_parts = citation_parts | append: separator | append: '<a href="' | append: post.slidesurl | append: '">Slides</a>' %}
+    {% if post.slidesurl %}
+    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fas fa-presentation"></i> <a href="' | append: post.slidesurl | append: '">Slides</a>' %}
     {% assign separator = " / " %}
     {% endif %}
 
     {% comment %} 3. Poster URL {% endcomment %}
-    {% if post.slidesurl %}
-    {% assign citation_parts = citation_parts | append: separator | append: '<a href="' | append: post.posterurl | append: '">Poster</a>' %}
+    {% if post.posterurl %}
+    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fas fa-image"></i> <a href="' | append: post.posterurl | append: '">Poster</a>' %}
     {% assign separator = " / " %}
     {% endif %}
 
     {% comment %} 4. Code URL {% endcomment %}
     {% if post.codeurl %}
-    {% assign citation_parts = citation_parts | append: separator | append: '<a href="' | append: post.codeurl | append: '">Code</a>' %}
+    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fab fa-github"></i> <a href="' | append: post.codeurl | append: '">Code</a>' %}
     {% assign separator = " / " %}
     {% endif %}
 
     {% comment %} 5. Video URL {% endcomment %}
     {% if post.videourl %}
-    {% assign citation_parts = citation_parts | append: separator | append: '<a href="' | append: post.videourl | append: '">Video</a>' %}
+    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fas fa-video"></i> <a href="' | append: post.videourl | append: '">Video</a>' %}
     {% assign separator = " / " %}
     {% endif %}
 
     {% comment %} 5. Blog URL {% endcomment %}
     {% if post.blogurl %}
-    {% assign citation_parts = citation_parts | append: separator | append: '<a href="' | append: post.blogurl | append: '">Blog</a>' %}
+    {% assign citation_parts = citation_parts | append: separator | append: '<i class="fas fa-blog"></i> <a href="' | append: post.blogurl | append: '">Blog</a>' %}
     {% assign separator = " / " %}
     {% endif %}
 
