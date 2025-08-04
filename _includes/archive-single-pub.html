@@ -41,7 +41,12 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
+          {% if post.award %}
+          <p>Published in <i>{{ post.venue }}</i>{% if post.award %} <span class="award">({{ post.award }})</span>{% endif %}, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% else %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% endif %}
+          
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -76,7 +81,7 @@
     {% endif %}
 
     {% comment %} 2. Slides URL {% endcomment %}
-    {% if post.slidesurl %}
+    {% if post.posterurl %}
     {% assign citation_parts = citation_parts | append: separator | append: '<a href="' | append: post.slidesurl | append: '">Slides</a>' %}
     {% assign separator = " / " %}
     {% endif %}
@@ -90,6 +95,12 @@
     {% comment %} 4. Code URL {% endcomment %}
     {% if post.codeurl %}
     {% assign citation_parts = citation_parts | append: separator | append: '<a href="' | append: post.codeurl | append: '">Code</a>' %}
+    {% assign separator = " / " %}
+    {% endif %}
+
+    {% comment %} 5. Video URL {% endcomment %}
+    {% if post.videourl %}
+    {% assign citation_parts = citation_parts | append: separator | append: '<a href="' | append: post.videourl | append: '">Video</a>' %}
     {% assign separator = " / " %}
     {% endif %}
 
