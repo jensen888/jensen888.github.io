@@ -11,7 +11,7 @@ I'm incoming assistant professor at [School of Artificial Intelligence](https://
 
 Research interests:
 
-I am currently striving to push the boundary of Models' ability on exploring the World, such as Interative Generative Video, Multi-modal Understanding/Generation. Any practical ideas aiming to advance AGI from similar aspects are also welcomed. Feel free to reach out and have a chat!
+I am currently striving to push the boundary of Models' ability on exploring the World, such as Interative Generative Video, Multi-modal Understanding/Generation. Any practical ideas aiming to advance AGI from similar aspects are also welcomed.  <font color=red>We have plenty of opennings for researchers, potential PhD students and interns. Feel free to reach out and have a chat!</font>
 
 News
 ======
@@ -19,11 +19,11 @@ News
 
 
 Awards
-
+======
 - *2023* UAI Best Student Paper Award  
 - *2024* Google Travel Grant, ICLR 2024  
 
 Academic Service
-
+======
 - IJCAI 2024, AAAI 2020/2021/2023, NeurIPS 2023/2025, ICML 2023/2024, ICLR 2022/2024
 - TPAMI, Pattern Recognition, IEEE Access
