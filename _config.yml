@@ -13,7 +13,8 @@ title                    : "Yingtian Zou (Jensen)"
 title_separator          : "-"
 name                     : &name "Yingtian Zou"
 description              : &description "personal description"
-url                      : https://jensen888.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://yingtian.world
+# https://jensen888.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jensen888/jensen888.github.io"
 
