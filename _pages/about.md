@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-He is an incoming Assistant Professor at the [School of Artificial Intelligence](https://soai.sjtu.edu.cn/), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). Before joining SJTU, he worked as TopMind at Huawei (2024-2025). He received his Ph.D. in Computer Science from the National University of Singapore (NUS) in 2024, where he was supervised by Prof. [Wynne Hsu](https://www.comp.nus.edu.sg/~whsu/). During his PhD, he also worked closely with Prof. [kawaguchi kenji](https://ml.comp.nus.edu.sg/#members) (MIT) and Prof. [Qianxiao Li](https://blog.nus.edu.sg/qianxiaoli/). He holds a Bachelor's degree in Software Engineering from Huazhong University of Science and Technology (HUST), which he received in 2018.
+I'm an incoming Assistant Professor at the [School of Artificial Intelligence](https://soai.sjtu.edu.cn/), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). Before joining SJTU, I worked as TopMind at Huawei (2024-2025). I received his Ph.D. in Computer Science from the National University of Singapore (NUS) in 2024, where I was supervised by Prof. [Wynne Hsu](https://www.comp.nus.edu.sg/~whsu/). During my PhD, I also worked closely with Prof. [kawaguchi kenji](https://ml.comp.nus.edu.sg/#members) (MIT) and Prof. [Qianxiao Li](https://blog.nus.edu.sg/qianxiaoli/). I hold a Bachelor's degree in Software Engineering from Huazhong University of Science and Technology (HUST).
 
 **Research interests**:
 
