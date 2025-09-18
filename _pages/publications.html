@@ -5,6 +5,37 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+/* 整体字体大小调整 */
+.publications-container {
+font-size: 0.9em;
+}
+
+/* 论文标题加粗 */
+.publications-container .archive__item-title {
+font-weight: bold !important;
+font-size: 1.1em;
+}
+
+/* 移除链接样式，保持文本外观 */
+.publications-container .archive__item-title a {
+color: inherit !important;
+text-decoration: none !important;
+pointer-events: none; /* 禁用点击 */
+cursor: default;
+}
+
+/* 其他文本内容字体调整 */
+.publications-container .archive__item-excerpt,
+.publications-container .page__meta {
+font-size: 0.85em;
+}
+</style>
+
+<div class="publications-container">
+
+
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can find my full list of publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
@@ -38,3 +69,4 @@ author_profile: true
 
 
 
+</div>
