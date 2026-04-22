@@ -47,26 +47,32 @@ Open-source projects
           🤖 Multi-Agent World Model
         </a>
       </h3>
-      <p style="margin: 0 0 12px 0; font-size: 14px; color: #555; line-height: 1.6;">
-        Scalable Multi-Agent Multi-View Video World Models. 
-        Haoyu Wu, Jiwen Yu, Yingtian Zou, Xihui Liu
+      <p style="margin: 0 0 4px 0; font-size: 14px; color: #333; line-height: 1.6;">
+        Scalable Multi-Agent Multi-View Video World Models.
+      </p>
+
+      <p style="margin: 0 0 12px 0; font-size: 13px; color: #888; line-height: 1.5;">
+        Haoyu Wu, Jiwen Yu, <strong>Yingtian Zou</strong>, Xihui Liu
       </p>
       <!-- 标签 -->
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-        <span style="background: #f0f4ff; color: #3366cc; padding: 2px 10px; border-radius: 10px; font-size: 12px;">Python</span>
+        <span style="background: #f0f4ff; color: #3366cc; padding: 2px 10px; border-radius: 10px; font-size: 12px;">Interactive Video Generation</span>
         <span style="background: #fff4e6; color: #cc6600; padding: 2px 10px; border-radius: 10px; font-size: 12px;">World Model</span>
         <span style="background: #f0fff4; color: #2d8a4e; padding: 2px 10px; border-radius: 10px; font-size: 12px;">Multi-Agent</span>
       </div>
     </div>
   </div>
+</div>
 
 
 Awards
 ======
 - *2023* UAI Best Student Paper Award  
 - *2024* Google Travel Grant, ICLR 2024  
+- *2025* 国家级高层次青年人才计划 2025
 
 Academic Service
 ======
-- Reviewers of IJCAI, AAAI, NeurIPS, ICML, ICLR, ECCV.
+Reviewers of 
+- IJCAI, AAAI, NeurIPS, ICML, ICLR, ECCV.
 - TPAMI, Pattern Recognition, IEEE Access
