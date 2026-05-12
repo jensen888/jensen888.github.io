@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I'm Assistant Professor at the [School of Artificial Intelligence](https://soai.sjtu.edu.cn/), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). Before joining SJTU, I worked as TopMind at Huawei (2024-2025). I received his Ph.D. in Computer Science from the National University of Singapore (NUS) in 2024, where I was supervised by Prof. [Wynne Hsu](https://www.comp.nus.edu.sg/~whsu/). During my PhD, I also worked closely with Prof. [kawaguchi kenji](https://ml.comp.nus.edu.sg/#members) (MIT) and Prof. [Qianxiao Li](https://blog.nus.edu.sg/qianxiaoli/). I hold a Bachelor's degree in Software Engineering from Huazhong University of Science and Technology (HUST).
+I'm Assistant Professor at the [School of Artificial Intelligence](https://soai.sjtu.edu.cn/), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). Before joining SJTU, I worked as TopMind at Huawei (2024-2025). I received my Ph.D. in Computer Science from the National University of Singapore (NUS) in 2024, where I was supervised by Prof. [Wynne Hsu](https://www.comp.nus.edu.sg/~whsu/). During my PhD, I also worked closely with Prof. [kawaguchi kenji](https://ml.comp.nus.edu.sg/#members) (MIT) and Prof. [Qianxiao Li](https://blog.nus.edu.sg/qianxiaoli/). I hold a Bachelor's degree in Software Engineering from Huazhong University of Science and Technology (HUST).
 
 **Research interests**:
 
@@ -74,5 +74,5 @@ Awards
 Academic Service
 ======
 Reviewers of 
-- IJCAI, AAAI, NeurIPS, ICML, ICLR, ECCV.
+- IJCAI, AAAI, NeurIPS, ICML, ICLR, ECCV, CVPR, EMNLP
 - TPAMI, Pattern Recognition, IEEE Access
